@@ -1,1 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
+body {
+    background-color: blue;
+    color: white;
+    font-family: 'Jersey 10';
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 100%;
+}
+
+/*logo www.orkbooka.com*/
+.logo a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+.logo a:hover {
+    color: #9CF0E1;
+    border-bottom: 2px solid #9CF0E1;
+}
+/*nav bar*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+    font-size: 1.5rem;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.navbar ul a {
+    color: #CCFF00; 
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+.navbar ul a:hover {
+    border-bottom: 2px solid #CCFF00;
+}
+
+/*hero section*/
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.headings {
+    font-size: 3.5rem;
+}
+
+.description {
+    font-size: 1.8rem;
+    padding: 30px;
+    max-width: 75%;
+}
+
+/*buttons*/
+.interaction {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.interaction-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.button {
+    font-size: 2.5rem;
+    color: white;
+    text-decoration: none;
+    border-bottom: 3px solid white;
+    padding: 5px 10px;
+}
+
+.button:hover {
+    background-color: #CCFF00;
+    color: blue;
+}
+
+.interaction-group {
+    display: flex;
+    flex-direction: column;
+}
+
+/*footer*/
+footer {
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    padding: 30px;
+}
+
+/*3-column grid*/
+.menu-grid {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 40px 0;
+}
+
+/*menu-card*/
+.menu-card {
+    background-color: white;
+    color: blue;
+    font-size: 1.5rem;
+    padding: 25px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-card .button {
+    font-size: 2.5rem;
+    color: blue;
+    text-decoration: none;
+    border-bottom: 3px solid blue;
+    padding: 5px 10px;
+}
+
+.menu-card .button:hover {
+    background-color: #CCFF00;
+    color: blue;
+}
+
+.menu-card:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+/*menu image*/
+.card-image img {
+    max-width: 100%;
+    width: 500px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/*weekly workshops content*/
+.main-card {
+    background-color: white;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    margin: 20px 0;
+    gap: 50px;
+}
+
+.content-card {
+    text-align: left;
+    color: blue;
+    max-width: 60%;
+}
+
+.content-card p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+.headings h4 {
+    margin-bottom: 20px;
+}
+
+.content-card h3 {
+    font-size: 2.5rem;
+}
+
+.content-card li {
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
